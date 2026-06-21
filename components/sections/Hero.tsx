@@ -41,7 +41,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="inline-block mb-6 px-4 py-1.5 rounded-full border border-ivory/20 bg-ivory/5 backdrop-blur-md"
         >
-          <span className="text-xs uppercase tracking-[0.2em] text-ivory/80 font-medium">Premium Print Studio</span>
+          <span className="text-xs uppercase tracking-[0.2em] text-ivory/80 font-medium">Premium Baskı Stüdyosu</span>
         </motion.div>
         
         <motion.h1 
@@ -50,8 +50,8 @@ export default function Hero() {
           transition={{ duration: 1.2, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="font-serif text-5xl md:text-7xl lg:text-[7rem] text-ivory leading-[1.05] tracking-tight max-w-5xl mb-8"
         >
-          Every Package <br />
-          <span className="italic text-accent">Tells a Story.</span>
+          Her Paket <br />
+          <span className="italic text-accent">Bir Hikaye Anlatır.</span>
         </motion.h1>
 
         <motion.p 
@@ -60,7 +60,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
           className="text-lg md:text-xl text-ivory/70 max-w-2xl font-light leading-relaxed mb-12"
         >
-          Premium labels, stickers, cards and print solutions crafted to elevate your brand experience and perception.
+          Markanızın değerini ve algısını en üst düzeye çıkarmak için özenle üretilmiş premium etiketler, çıkartmalar, kartlar ve baskı çözümleri.
         </motion.p>
 
         <motion.div
@@ -73,7 +73,7 @@ export default function Hero() {
               href="#quote" 
               className="px-8 py-4 bg-accent text-dark text-lg font-medium rounded-full hover:bg-ivory transition-colors duration-500 inline-flex items-center gap-2 group"
             >
-              Get a Custom Quote
+              Özel Teklif Al
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
             </Link>
           </MagneticButton>
@@ -86,7 +86,7 @@ export default function Hero() {
         transition={{ duration: 1, delay: 1.5 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10"
       >
-        <span className="text-xs uppercase tracking-widest text-ivory/50">Scroll to explore</span>
+        <span className="text-xs uppercase tracking-widest text-ivory/50">Keşfetmek İçin Kaydır</span>
         <div className="w-[1px] h-12 bg-ivory/20 relative overflow-hidden">
           <motion.div 
             animate={{ y: [0, 48, 48] }}

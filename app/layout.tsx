@@ -14,8 +14,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Digipress Etiket | Luxury Branding & Print Production",
-  description: "Premium labels, stickers, packaging inserts, and print solutions crafted to elevate your brand experience.",
+  title: "Digipress Etiket | Lüks Markalama ve Baskı Üretimi",
+  description: "Marka deneyiminizi zirveye taşımak için özenle üretilmiş premium etiketler, çıkartmalar, ambalaj içi kartlar ve baskı çözümleri.",
 };
 
 export default function RootLayout({

@@ -22,15 +22,15 @@ export default function Craftsmanship() {
           
           <div className="lg:col-span-5 z-10">
             <SectionHeading 
-              title="The Art of Print" 
-              subtitle="We don't just print; we engineer physical brand experiences. From the tactile grain of premium papers to the precise gleam of hot foil." 
+              title="Baskı Sanatı" 
+              subtitle="Biz sadece baskı yapmıyoruz; fiziksel marka deneyimleri tasarlıyoruz. Premium kağıtların dokusal hissinden, sıcak yaldızın kusursuz parıltısına kadar." 
             />
             
             <div className="space-y-12 mt-16">
               {[
-                { title: "Premium Materials", desc: "Sourced globally, our textured papers and specialized substrates are chosen for their profound tactile quality." },
-                { title: "High-Fidelity Detail", desc: "State-of-the-art print technology ensuring absolute clarity, color accuracy, and flawless micro-typography." },
-                { title: "Embellishments", desc: "Masterful application of hot foil stamping, blind embossing, and spot UV to create striking dimensional effects." }
+                { title: "Premium Materyaller", desc: "Dünyanın dört bir yanından özenle seçilmiş, derin dokusal kaliteye sahip özel kağıtlar ve yüzeyler." },
+                { title: "Yüksek Çözünürlüklü Detay", desc: "Mutlak netlik, renk doğruluğu ve kusursuz mikro tipografi sağlayan son teknoloji baskı." },
+                { title: "Özel Dokunuşlar", desc: "Çarpıcı boyut efektleri yaratmak için sıcak yaldız, gofre (kabartma) ve lokal lak uygulamalarında ustalık." }
               ].map((item, i) => (
                 <div key={i} className="group">
                   <h4 className="font-serif text-2xl text-foreground mb-3 group-hover:text-accent transition-colors">
@@ -49,7 +49,7 @@ export default function Craftsmanship() {
             <motion.div style={{ y: y1 }} className="absolute right-0 top-[10%] w-[60%] md:w-[50%] aspect-[3/4] z-10 shadow-2xl overflow-hidden rounded-sm">
               <Image 
                 src="/placeholder/luxury_labels.png" 
-                alt="Macro detail of gold foil" 
+                alt="Altın yaldız makro detayı" 
                 fill 
                 className="object-cover scale-110" 
               />
@@ -59,7 +59,7 @@ export default function Craftsmanship() {
             <motion.div style={{ y: y2 }} className="absolute left-[10%] bottom-[10%] w-[55%] md:w-[45%] aspect-[4/5] z-20 shadow-2xl overflow-hidden rounded-sm">
               <Image 
                 src="/placeholder/packaging_insert.png" 
-                alt="Premium textured paper" 
+                alt="Premium dokulu kağıt" 
                 fill 
                 className="object-cover scale-110" 
               />

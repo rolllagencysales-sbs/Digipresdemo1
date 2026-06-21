@@ -18,7 +18,7 @@ export default function Trust() {
     <section className="py-24 md:py-32 bg-background border-b border-foreground/5 overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 mb-12 text-center">
         <p className="text-sm uppercase tracking-[0.2em] text-foreground/40 font-medium">
-          Trusted by modern luxury brands
+          Modern Lüks Markaların Tercihi
         </p>
       </div>
 

@@ -8,15 +8,15 @@ import SectionHeading from "../ui/SectionHeading";
 const projects = [
   {
     title: "Aura Botanica",
-    category: "Packaging & Labels",
+    category: "Ambalaj & Etiket",
     image: "/placeholder/luxury_labels.png",
-    description: "Elevating the unboxing experience for a premium skincare line with textured black paper and gold foil embossing."
+    description: "Premium bir cilt bakım serisinin kutu açılış deneyimini dokulu siyah kağıt ve altın yaldız detaylarıyla zenginleştirdik."
   },
   {
     title: "Maison Blanc",
-    category: "Brand Identity & Print",
+    category: "Marka Kimliği & Baskı",
     image: "/placeholder/thank_you_cards.png",
-    description: "A complete overhaul of customer touchpoints, featuring heavy ivory cardstock and subtle blind letterpress."
+    description: "Ağır gramajlı fildişi karton ve zarif tipo baskı ile müşteri temas noktalarının baştan aşağı yenilenmesi."
   }
 ];
 
@@ -27,8 +27,8 @@ export default function FeaturedWork() {
     <section id="work" className="py-32 md:py-48 bg-background relative" ref={containerRef}>
       <div className="container mx-auto px-6 md:px-12">
         <SectionHeading 
-          title="Selected Work" 
-          subtitle="Explore how we transform physical brand touchpoints into memorable luxury experiences through meticulous craftsmanship." 
+          title="Seçilmiş Çalışmalar" 
+          subtitle="Fiziksel marka temas noktalarını titiz bir işçilikle nasıl unutulmaz lüks deneyimlere dönüştürdüğümüzü keşfedin." 
         />
 
         <div className="flex flex-col gap-24 md:gap-40 mt-24">
@@ -80,7 +80,7 @@ function ProjectCard({ project, index }: { project: { title: string; category: s
         </p>
         <div>
           <button className="relative inline-flex items-center gap-2 pb-1 border-b border-foreground/20 hover:border-accent text-foreground hover:text-accent transition-colors duration-300">
-            View Case Study
+            Vaka Analizini İncele
             <span className="transform group-hover:translate-x-1 transition-transform duration-300">→</span>
           </button>
         </div>

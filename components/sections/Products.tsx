@@ -6,10 +6,10 @@ import SectionHeading from "../ui/SectionHeading";
 import { ArrowUpRight } from "lucide-react";
 
 const products = [
-  { id: "01", name: "Premium Labels", image: "/placeholder/luxury_labels.png" },
-  { id: "02", name: "Custom Stickers", image: "/placeholder/luxury_labels.png" }, // Reusing image since we couldn't generate one
-  { id: "03", name: "Thank You Cards", image: "/placeholder/thank_you_cards.png" },
-  { id: "04", name: "Packaging Inserts", image: "/placeholder/packaging_insert.png" },
+  { id: "01", name: "Premium Etiketler", image: "/placeholder/luxury_labels.png" },
+  { id: "02", name: "Özel Çıkartmalar", image: "/placeholder/luxury_labels.png" }, 
+  { id: "03", name: "Teşekkür Kartları", image: "/placeholder/thank_you_cards.png" },
+  { id: "04", name: "Ambalaj İçi Kartlar", image: "/placeholder/packaging_insert.png" },
 ];
 
 export default function Products() {
@@ -34,8 +34,8 @@ export default function Products() {
 
       <div className="container relative z-10 mx-auto px-6 md:px-12">
         <SectionHeading 
-          title="The Collection" 
-          subtitle="Discover our range of premium printed materials, each crafted with precision and an unwavering commitment to quality."
+          title="Koleksiyon" 
+          subtitle="Her biri hassasiyetle ve kaliteden ödün vermeden üretilmiş premium baskı materyallerimizi keşfedin."
           className="text-ivory"
         />
 

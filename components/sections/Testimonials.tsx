@@ -5,14 +5,14 @@ import SectionHeading from "../ui/SectionHeading";
 
 const testimonials = [
   {
-    quote: "Digipress transformed our packaging into a tactile experience. The quality of the hot foil stamping and the texture of the paper elevated our brand perception instantly.",
+    quote: "Digipress ambalajlarımızı dokunsal bir deneyime dönüştürdü. Sıcak yaldız baskının kalitesi ve kağıdın dokusu marka algımızı anında yükseltti.",
     author: "Elena Rossi",
-    role: "Creative Director, Maison Blanc"
+    role: "Kreatif Direktör, Maison Blanc"
   },
   {
-    quote: "A true partner in print. They don't just execute; they advise on materials and techniques to achieve the most luxurious result possible.",
+    quote: "Gerçek bir baskı partneri. Sadece işi yapıp geçmiyorlar; mümkün olan en lüks sonucu elde etmek için malzeme ve teknikler konusunda danışmanlık yapıyorlar.",
     author: "James Chen",
-    role: "Founder, Aura Botanica"
+    role: "Kurucu, Aura Botanica"
   }
 ];
 
@@ -23,8 +23,8 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
           <div>
             <SectionHeading 
-              title="Words from our Partners" 
-              subtitle="We build lasting relationships with brands that refuse to compromise on quality."
+              title="İş Ortaklarımızın Sözleri" 
+              subtitle="Kaliteden asla ödün vermeyen markalarla kalıcı ilişkiler kuruyoruz."
             />
           </div>
 

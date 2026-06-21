@@ -7,10 +7,10 @@ import { cn } from "@/lib/utils";
 import MagneticButton from "../ui/MagneticButton";
 
 const navLinks = [
-  { name: "Work", href: "#work" },
-  { name: "Products", href: "#products" },
-  { name: "Craftsmanship", href: "#craftsmanship" },
-  { name: "Process", href: "#process" },
+  { name: "Çalışmalarımız", href: "#work" },
+  { name: "Ürünler", href: "#products" },
+  { name: "İşçilik", href: "#craftsmanship" },
+  { name: "Sürecimiz", href: "#process" },
 ];
 
 export default function Header() {
@@ -65,7 +65,7 @@ export default function Header() {
               href="#quote"
               className="px-6 py-2.5 bg-foreground text-background text-sm font-medium rounded-full hover:bg-accent transition-colors duration-300"
             >
-              Request Quote
+              Teklif Al
             </Link>
           </MagneticButton>
         </div>

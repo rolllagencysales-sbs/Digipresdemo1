@@ -8,10 +8,10 @@ import SectionHeading from "../ui/SectionHeading";
 gsap.registerPlugin(ScrollTrigger);
 
 const steps = [
-  { num: "01", title: "Discover", desc: "Understanding your brand ethos, aesthetic requirements, and functional needs to lay a solid foundation." },
-  { num: "02", title: "Design", desc: "Collaborative prototyping, material selection, and structural design to bring your vision to a tangible state." },
-  { num: "03", title: "Produce", desc: "Exacting production using state-of-the-art print technology and artisanal finishing techniques." },
-  { num: "04", title: "Deliver", desc: "Careful packaging and nationwide delivery, ensuring your premium assets arrive in pristine condition." }
+  { num: "01", title: "Keşfet", desc: "Sağlam bir temel oluşturmak için markanızın ruhunu, estetik ve işlevsel gereksinimlerini anlıyoruz." },
+  { num: "02", title: "Tasarla", desc: "Vizyonunuzu somut bir hale getirmek için işbirlikçi prototipleme, malzeme seçimi ve yapısal tasarım." },
+  { num: "03", title: "Üret", desc: "Son teknoloji baskı ve zanaatkar bitirme teknikleri kullanılarak yapılan kusursuz üretim." },
+  { num: "04", title: "Teslim Et", desc: "Premium ürünlerinizin mükemmel durumda ulaşmasını sağlayan özenli paketleme ve teslimat." }
 ];
 
 export default function Process() {
@@ -45,7 +45,7 @@ export default function Process() {
   return (
     <section id="process" ref={sectionRef} className="bg-dark text-ivory h-screen flex flex-col justify-center overflow-hidden relative">
       <div className="absolute top-24 left-6 md:left-12 z-20">
-        <h2 className="font-serif text-4xl md:text-5xl text-ivory">Our Process</h2>
+        <h2 className="font-serif text-4xl md:text-5xl text-ivory">Sürecimiz</h2>
       </div>
 
       <div className="flex items-center w-full h-full" ref={containerRef}>

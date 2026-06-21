@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mb-24">
           <div className="lg:col-span-2">
             <h2 className="font-serif text-4xl md:text-6xl text-ivory mb-6 max-w-lg leading-tight">
-              Let&apos;s create something <span className="text-accent italic">extraordinary</span>.
+              Birlikte <span className="text-accent italic">olağanüstü</span> bir şeyler yaratalım.
             </h2>
             <Link 
               href="mailto:hello@digipressetiket.com" 
@@ -20,12 +20,18 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm uppercase tracking-widest text-ivory/50 mb-6">Menu</h3>
+            <h3 className="text-sm uppercase tracking-widest text-ivory/50 mb-6">Menü</h3>
             <ul className="space-y-4">
-              {['Home', 'Selected Work', 'Products', 'Craftsmanship', 'Process'].map((item) => (
-                <li key={item}>
-                  <Link href={`#${item.toLowerCase().replace(' ', '-')}`} className="text-ivory hover:text-accent transition-colors duration-300">
-                    {item}
+              {[
+                { name: 'Ana Sayfa', href: '#' },
+                { name: 'Çalışmalarımız', href: '#work' },
+                { name: 'Ürünler', href: '#products' },
+                { name: 'İşçilik', href: '#craftsmanship' },
+                { name: 'Sürecimiz', href: '#process' }
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link href={item.href} className="text-ivory hover:text-accent transition-colors duration-300">
+                    {item.name}
                   </Link>
                 </li>
               ))}
@@ -33,7 +39,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm uppercase tracking-widest text-ivory/50 mb-6">Social</h3>
+            <h3 className="text-sm uppercase tracking-widest text-ivory/50 mb-6">Sosyal Medya</h3>
             <ul className="space-y-4">
               {['Instagram', 'LinkedIn', 'Behance', 'Dribbble'].map((item) => (
                 <li key={item}>
@@ -48,10 +54,10 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between pt-8 border-t border-ivory/10 text-sm text-ivory/50">
-          <p>© {new Date().getFullYear()} Digipress Etiket. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Digipress Etiket. Tüm hakları saklıdır.</p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-ivory transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-ivory transition-colors">Terms of Service</Link>
+            <Link href="#" className="hover:text-ivory transition-colors">Gizlilik Politikası</Link>
+            <Link href="#" className="hover:text-ivory transition-colors">Kullanım Şartları</Link>
           </div>
         </div>
       </div>
