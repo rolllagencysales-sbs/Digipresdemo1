@@ -67,6 +67,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="flex flex-col sm:flex-row items-center gap-6"
         >
           <MagneticButton>
             <Link 
@@ -75,6 +76,18 @@ export default function Hero() {
             >
               Özel Teklif Al
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
+            </Link>
+          </MagneticButton>
+
+          <MagneticButton>
+            <Link 
+              href="https://wa.me/+905550201954" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-transparent border border-ivory/30 text-ivory text-lg font-medium rounded-full hover:bg-ivory/10 transition-colors duration-500 inline-flex items-center gap-2 group"
+            >
+              Hemen Bilgi Al
+              <span className="group-hover:translate-x-1 transition-transform duration-300">↗</span>
             </Link>
           </MagneticButton>
         </motion.div>
