@@ -39,9 +39,10 @@ export default function Header() {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link href="/" className="group relative z-10">
-          <span className="font-serif text-2xl font-bold tracking-tight text-foreground uppercase flex items-center gap-2">
-            Digipress
-            <span className="text-accent text-sm font-sans tracking-widest mt-1">
+          <span className="font-serif text-3xl font-bold tracking-tight flex items-center">
+            <span className="text-foreground">Digi</span>
+            <span className="text-accent">press</span>
+            <span className="text-foreground/70 text-sm font-sans tracking-widest mt-2 ml-3 uppercase">
               Etiket
             </span>
           </span>
